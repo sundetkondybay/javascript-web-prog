@@ -27,43 +27,43 @@ alert(name); */
 
 // 3 задание начало
 
-let i = 11
+// let i = 11
 
-while (i <= 33) {
+// while (i <= 33) {
 
-   i++
-   console.log(i - 1)
+//    i++
+//    console.log(i - 1)
 
-}
+// }
 
-console.log("==================================")
+// console.log("==================================")
 
-for (let i = 11; i <= 33; i++) {
+// for (let i = 11; i <= 33; i++) {
 
-   console.log(i)
+//    console.log(i)
 
-}
+// }
 
-console.log("==================================")
+// console.log("==================================")
 
-let k = 0;
+// let k = 0;
 
-while (k <= 100) {
+// while (k <= 100) {
 
-   console.log(k)
-   k += 2
+//    console.log(k)
+//    k += 2
 
-}
+// }
 
-console.log("==================================")
+// console.log("==================================")
 
-for (let i = 0; i <= 100; i++) {
+// for (let i = 0; i <= 100; i++) {
 
-   if (i % 2 == 0) {
-      console.log(i)
-   }
+//    if (i % 2 == 0) {
+//       console.log(i)
+//    }
 
-}
+// }
 
 // 3 задание конец
 
@@ -71,6 +71,30 @@ for (let i = 0; i <= 100; i++) {
 
 // 4 задание начало
 
+const season = +prompt("Бір сан таңдаңыз: 1, 2, 3, 4")
+
+switch (season) {
+
+   case 1:
+      alert("қыс")
+      break;
+
+   case 2:
+      alert("көктем")
+      break;
+
+   case 3:
+      alert("жаз")
+      break;
+
+   case 4:
+      alert("күз")
+      break;
+
+   default:
+      alert("Ондай сан жоқ");
+
+}
 
 
 // 4 задание конец
