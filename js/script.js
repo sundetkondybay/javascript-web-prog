@@ -102,12 +102,10 @@ alert(name); */
 
 // 5 задание начало
 
-function mult(x, y) {
-
-   alert("21 * 24 = " + x * y)
-
+function plus(a, b) {
+   alert("21 * 24 = " + a * b)
 }
 
-mult(21, 24)
+plus(21, 24)
 
 // 5 задание конец
