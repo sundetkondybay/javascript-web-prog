@@ -71,30 +71,43 @@ alert(name); */
 
 // 4 задание начало
 
-const season = +prompt("Бір сан таңдаңыз: 1, 2, 3, 4")
+// const season = +prompt("Бір сан таңдаңыз: 1, 2, 3, 4")
 
-switch (season) {
+// switch (season) {
 
-   case 1:
-      alert("қыс")
-      break;
+//    case 1:
+//       alert("қыс")
+//       break;
 
-   case 2:
-      alert("көктем")
-      break;
+//    case 2:
+//       alert("көктем")
+//       break;
 
-   case 3:
-      alert("жаз")
-      break;
+//    case 3:
+//       alert("жаз")
+//       break;
 
-   case 4:
-      alert("күз")
-      break;
+//    case 4:
+//       alert("күз")
+//       break;
 
-   default:
-      alert("Ондай сан жоқ");
+//    default:
+//       alert("Ондай сан жоқ");
+
+// }
+
+// 4 задание конец
+
+
+
+// 5 задание начало
+
+function mult(x, y) {
+
+   alert("21 * 24 = " + x * y)
 
 }
 
+mult(21, 24)
 
-// 4 задание конец
+// 5 задание конец
