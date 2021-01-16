@@ -102,10 +102,36 @@ alert(name); */
 
 // 5 задание начало
 
-function plus(a, b) {
-   alert("21 * 24 = " + a * b)
-}
+// function plus(a, b) {
+//    alert("21 * 24 = " + a * b)
+// }
 
-plus(21, 24)
+// plus(21, 24)
 
 // 5 задание конец
+
+
+
+// js по вариантам гр б
+
+let two = document.getElementById("two")
+two.addEventListener("click", () => {
+   alert("нашар студент")
+})
+
+let three = document.getElementById("three")
+three.addEventListener("click", () => {
+   alert("қанағаттанарлық")
+})
+
+let four = document.getElementById("four")
+four.addEventListener("click", () => {
+   alert("жақсы оқушы")
+})
+
+let five = document.getElementById("five")
+five.addEventListener("click", () => {
+   alert("үздік оқушы")
+})
+
+// js по вариантам гр б
